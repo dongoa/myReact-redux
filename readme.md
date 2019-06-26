@@ -24,4 +24,4 @@ Reactjs除了状态提升以外没有更好的办法解决组件之间的共享�
 每个组件需要的数据和需要出发的action不一样，所以调整connect让它接受两个参数。  
 最后把所有关于context的代码从业务逻辑里面清除，构建一个Provider组件，作为所有组件树的根节点，外界可以通过props给它提供store，存到自己的context里，让子组件connect的时候都能获取到。  
 
-## smart组件和dumb组件
+
